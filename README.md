@@ -50,8 +50,13 @@ PLP_AI_For_Software_Engineering_Week_5/
 ├── README.md                    # Project documentation
 ├── assign.txt                   # Assignment requirements
 ├── final_solution_summary.md    # Comprehensive solution analysis
+├── Assignment_Answers.md        # Complete assignment solutions
+├── Short_Answers_Questions.md   # Additional short answer questions
+├── AI_Development_Workflow_Flowchart.md  # AI development workflow diagram
 ├── hospital_readmission_improved.py  # Main implementation
 ├── hospital_readmission_solution.py   # Initial solution
+├── app.py                       # Streamlit web application
+├── requirements.txt             # Python dependencies
 ├── data/
 │   └── hospital_readmissions_30k.csv  # Dataset
 ├── feature_importance.csv       # Feature importance analysis
@@ -135,6 +140,9 @@ The Random Forest model demonstrates:
 
 ## 📚 Documentation
 - **`final_solution_summary.md`**: Comprehensive solution analysis
+- **`Assignment_Answers.md`**: Complete assignment solutions
+- **`Short_Answers_Questions.md`**: Additional short answer questions
+- **`AI_Development_Workflow_Flowchart.md`**: AI development workflow diagram
 - **Code comments**: Detailed explanations in implementation files
 - **Visualizations**: Performance metrics and feature importance
 
@@ -155,7 +163,7 @@ streamlit run streamlit_app.py
 ```
 
 ### Live Demo
-🔗 **[Live Demo Available](https://share.streamlit.app/**[demo-url]**)**
+🔗 **[Live Demo Available](https://plpaiforsoftwareengineeringweek5-7ykyktafmsrwsyuyknduaa.streamlit.app/)**
 
 *Note: Live demo link will be available after deployment to Streamlit Community Cloud*
 
