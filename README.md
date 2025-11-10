@@ -138,6 +138,64 @@ The Random Forest model demonstrates:
 - **Code comments**: Detailed explanations in implementation files
 - **Visualizations**: Performance metrics and feature importance
 
+## 🚀 Streamlit Deployment
+
+### Running the Streamlit App
+To run the interactive web application:
+
+```bash
+# Navigate to the project directory
+cd PLP_AI_For_Software_Engineering_Week_5
+
+# Install required packages
+pip install -r requirements.txt
+
+# Run the Streamlit application
+streamlit run streamlit_app.py
+```
+
+### Live Demo
+🔗 **[Live Demo Available](https://share.streamlit.app/**[demo-url]**)**
+
+*Note: Live demo link will be available after deployment to Streamlit Community Cloud*
+
+### Streamlit App Features
+- **Interactive Prediction Interface**: Input patient information to get readmission risk predictions
+- **Feature Importance Visualization**: Understand which factors most influence predictions
+- **Real-time Model Performance**: View model metrics and key insights
+- **User-friendly Interface**: Clean, responsive design with multiple tabs
+- **Ethical AI Information**: Learn about bias mitigation and privacy considerations
+
+### App Structure
+The Streamlit app consists of three main tabs:
+1. **🔮 Predict Readmission**: Main interface for patient risk assessment
+2. **📊 Feature Importance**: Analysis of predictive factors and their impact
+3. **ℹ️ About**: Information about the model, ethical considerations, and usage guidelines
+
+### Deployment to Streamlit Community Cloud
+To deploy this application to Streamlit Community Cloud:
+
+1. **Push your code to GitHub**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git remote add origin https://github.com/your-username/hospital-readmission-prediction.git
+   git push -u origin main
+   ```
+
+2. **Deploy to Streamlit Community Cloud**
+   - Go to [Streamlit Community Cloud](https://streamlit.io/cloud)
+   - Click "New app"
+   - Connect to your GitHub repository
+   - Select the main branch and the `app.py` file
+   - Click "Deploy!"
+
+3. **Customize your app**
+   - Add requirements.txt to your repository
+   - Configure app settings in the Streamlit dashboard
+   - Set up environment variables if needed
+
 ## 🚀 Future Enhancements
 - Integration with hospital EHR systems
 - Real-time prediction API
