@@ -219,4 +219,67 @@ This project was created as part of the PLP AI for Software Engineering program.
 
 ---
 
+## 🔄 AI Development Workflow
+
+This project follows a comprehensive AI development workflow with 14 key stages:
+
+```mermaid
+graph TD
+    A[1. Problem Definition] --> B[2. Data Collection]
+    B --> C[3. Data Preprocessing]
+    C --> D[4. Exploratory Data Analysis]
+    D --> E[5. Feature Engineering]
+    E --> F[6. Model Selection]
+    F --> G[7. Model Training]
+    G --> H[8. Model Evaluation]
+    H --> I{Performance Adequate?}
+    I -->|Yes| J[9. Model Optimization]
+    I -->|No| F
+    J --> K[10. Model Validation]
+    K --> L{Validation Passed?}
+    L -->|Yes| M[11. Deployment Planning]
+    L -->|No| J
+    M --> N[12. Model Deployment]
+    N --> O[13. Monitoring & Maintenance]
+    O --> P[14. Model Retraining]
+    P --> G
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style C fill:#fff3e0
+    style D fill:#e8f5e8
+    style E fill:#fce4ec
+    style F fill:#e3f2fd
+    style G fill:#fff8e1
+    style H fill:#ffebee
+    style I fill:#f1f8e9
+    style J fill:#e1bee7
+    style K fill:#e0f2f1
+    style L fill:#fff9c4
+    style M fill:#e8eaf6
+    style N fill:#ffe0b2
+    style O fill:#c8e6c9
+    style P fill:#ffccbc
+```
+
+### Key Workflow Stages:
+1. **Problem Definition**: Setting objectives and identifying stakeholders
+2. **Data Collection**: Gathering relevant data sources
+3. **Data Preprocessing**: Cleaning and preparing data
+4. **Exploratory Data Analysis**: Understanding patterns and relationships
+5. **Feature Engineering**: Creating predictive features
+6. **Model Selection**: Choosing appropriate algorithms
+7. **Model Training**: Executing the training process
+8. **Model Evaluation**: Assessing performance metrics
+9. **Model Optimization**: Improving model efficiency
+10. **Model Validation**: Verifying generalization capability
+11. **Deployment Planning**: Preparing for production
+12. **Model Deployment**: Releasing to production
+13. **Monitoring & Maintenance**: Tracking performance
+14. **Model Retraining**: Updating with new data
+
+For detailed descriptions of each stage, see the [AI Development Workflow Flowchart](AI_Development_Workflow_Flowchart.md).
+
+---
+
 **Note**: This solution addresses all requirements specified in the assignment while emphasizing practical deployment considerations, ethical AI practices, and clinical interpretability.
